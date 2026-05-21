@@ -28,7 +28,7 @@ class _ChatbotScreenState extends State<ChatbotScreen> {
 
   void _initializeGemini() {
     // ⚠️ REEMPLAZA ESTO CON TU API KEY REAL DE GOOGLE AI STUDIO ⚠️
-    const apiKey = 'AIzaSyCFCnyEBsRBVZV0ytZ4JdU1Zc4q5XOtnb8';
+    const apiKey = '';
 
     // Configuramos el modelo y le damos "Instrucciones de Sistema"
    _model = GenerativeModel(
