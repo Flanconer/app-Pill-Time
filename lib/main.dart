@@ -10,7 +10,7 @@ Future<void> main() async {
   // 3. Inicializa Supabase con tus credenciales
   await Supabase.initialize(
     url: 'https://zdbdwzblxzsgzzjcsndy.supabase.co/',
-    anonKey: 'sb_publishable_mCVHlsU0hy8jN8wi_e5KpQ_30xXvL-W',
+    anonKey: '',
   );
 await NotificationHelper.init();
   runApp(const MyApp());
