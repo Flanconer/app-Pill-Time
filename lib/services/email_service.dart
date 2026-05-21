@@ -5,7 +5,7 @@ class EmailService {
   // Configura aquí el correo desde donde se enviarán las alertas de PillTime
   static const String _senderEmail = 'predatorberserquerq@gmail.com';
   // Pega aquí las 16 letras de la contraseña de aplicación de Google (sin espacios)
-  static const String _appPassword = 'hoad snpy kvku cqqi'; 
+  static const String _appPassword = ''; 
 
   static Future<void> sendMedicationAlert({
     required String caregiverEmail,
